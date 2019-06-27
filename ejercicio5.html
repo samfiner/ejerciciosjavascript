@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    
+    <title>Document</title>
+    <style>
+
+    </style>
+
+</head>
+<body>
+    <h1>pagina usando javascript</h1>
+    <script>
+       var peso=prompt("ingrese su peso");
+       var estatura=prompt("ingrese su estatura");
+       var imc=0
+       imc=peso/(estatura*estatura);
+       
+
+        
+            if(imc<18.5){
+                document.write("su peso es bajo");
+
+            }
+             else if(imc>=18.5 && imc<=24.9){
+                document.write("su peso es normal");
+
+             }
+            else if(imc>=25 && imc<=29.9){
+                document.write("usted esta en sobrepeso");
+
+            }
+    
+            else if(imc>=30 && imc<=34.9){
+                document.write("su estado es de obesidad");
+
+            }
+    
+            else if(imc>=35 && imc<=39.9){
+                document.write("usted esta en obesidad 2");
+
+            }
+    
+            else if(imc>=40 && imc<=49.9){
+                document.write("usted esta en obesidad 3");
+
+            }
+            else if(imc>50){
+                    document.write("usted esta en obesidad 4");
+
+            }
+
+
+       
+    </script>
+    </body>
+    </html>
